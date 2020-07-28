@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/currentWeather"
+            android:title="@string/current_weather"/>
+
+        <item
+            android:id="@+id/threeDaysWeather"
+            android:title="@string/_3_days_weather"/>
+
+        <item
+            android:id="@+id/weekWeather"
+            android:title="@string/week_weather"/>
+
+        <item
+            android:id="@+id/twoWeekWeather"
+            android:title="@string/weather_for_2_week"/>
+
+        <item
+            android:id="@+id/weatherMap"
+            android:title="@string/weather_from_map"/>
+
+        <item
+            android:id="@+id/settingsDrawer"
+            android:title="@string/settings"/>
+
+    </group>
+
+
+</menu>
